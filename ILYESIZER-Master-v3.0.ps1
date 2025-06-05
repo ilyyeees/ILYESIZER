@@ -70,13 +70,13 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Continue"
 
 # ILYESIZER Master Controller v3.0 Configuration
-$Global:ILYESIZERMasterConfig = @{
-    ScriptName = "ILYESIZER Master Controller v3.0"
+$Global:ILYESIZERMasterConfig = @{    ScriptName = "ILYESIZER Master Controller v3.0"
     Version = "3.0.0"
     Author = "ilyyeees"
     LogFile = Join-Path $PSScriptRoot "ILYESIZER-Master-Log-$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').log"
     BackupPath = Join-Path $PSScriptRoot "backup"
-    TempPath = Join-Path $env:TEMP "ILYESIZER-optimization"    RequiredFiles = @(
+    TempPath = Join-Path $env:TEMP "ILYESIZER-optimization"
+    RequiredFiles = @(
         "gaming-optimization.ps1"           # ILYESIZER Core v3.0
         "ILYESIZER-GPU-v3.0.ps1"           # ILYESIZER GPU v3.0
         "ILYESIZER-Network-v3.0.ps1"       # ILYESIZER Network v3.0
