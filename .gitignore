@@ -1,0 +1,30 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell
+*.log
+*.tmp
+*.temp
+
+# ILYESIZER specific
+*-Log-*.log
+ILYESIZER-*-Log-*.log
+temp/
+backup/
+
+# Keep Backups folder but ignore its contents
+Backups/*
+!Backups/.gitkeep
+
+# IDE and editors
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
