@@ -1,0 +1,5031 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Selected.System.ServiceProcess.ServiceController</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AarSvc_bfc22ac</S>
+      <Obj N="Status" RefId="1">
+        <TN RefId="1">
+          <T>System.ServiceProcess.ServiceControllerStatus</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="2">
+        <TN RefId="2">
+          <T>System.ServiceProcess.ServiceStartMode</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Agent Activation Runtime_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AdobeUpdateService</S>
+      <Obj N="Status" RefId="4">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="5">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">AdobeUpdateService</S>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AJRouter</S>
+      <Obj N="Status" RefId="7">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="8">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">AllJoyn Router Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ALG</S>
+      <Obj N="Status" RefId="10">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="11">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Application Layer Gateway Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AMD Crash Defender Service</S>
+      <Obj N="Status" RefId="13">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="14">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">AMD Crash Defender Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AMD External Events Utility</S>
+      <Obj N="Status" RefId="16">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="17">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">AMD External Events Utility</S>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">amdpmfservice</S>
+      <Obj N="Status" RefId="19">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="20">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">AMD PMF Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AppIDSvc</S>
+      <Obj N="Status" RefId="22">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="23">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Application Identity</S>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Appinfo</S>
+      <Obj N="Status" RefId="25">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="26">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Application Information</S>
+    </MS>
+  </Obj>
+  <Obj RefId="27">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AppReadiness</S>
+      <Obj N="Status" RefId="28">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="29">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">App Readiness</S>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AppXSvc</S>
+      <Obj N="Status" RefId="31">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="32">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">AppX Deployment Service (AppXSVC)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">aspnet_state</S>
+      <Obj N="Status" RefId="34">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="35">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">ASP.NET State Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AudioEndpointBuilder</S>
+      <Obj N="Status" RefId="37">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="38">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Audio Endpoint Builder</S>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Audiosrv</S>
+      <Obj N="Status" RefId="40">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="41">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Audio</S>
+    </MS>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">autotimesvc</S>
+      <Obj N="Status" RefId="43">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="44">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Cellular Time</S>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">AxInstSV</S>
+      <Obj N="Status" RefId="46">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="47">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">ActiveX Installer (AxInstSV)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BcastDVRUserService_bfc22ac</S>
+      <Obj N="Status" RefId="49">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="50">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">GameDVR and Broadcast User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="51">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BDESVC</S>
+      <Obj N="Status" RefId="52">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="53">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">BitLocker Drive Encryption Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BFE</S>
+      <Obj N="Status" RefId="55">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="56">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Base Filtering Engine</S>
+    </MS>
+  </Obj>
+  <Obj RefId="57">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BITS</S>
+      <Obj N="Status" RefId="58">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="59">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Background Intelligent Transfer Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BluetoothUserService_bfc22ac</S>
+      <Obj N="Status" RefId="61">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="62">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Bluetooth User Support Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="63">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BrokerInfrastructure</S>
+      <Obj N="Status" RefId="64">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="65">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Background Tasks Infrastructure Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BTAGService</S>
+      <Obj N="Status" RefId="67">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="68">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Bluetooth Audio Gateway Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="69">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">BthAvctpSvc</S>
+      <Obj N="Status" RefId="70">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="71">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">AVCTP service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">bthserv</S>
+      <Obj N="Status" RefId="73">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="74">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Bluetooth Support Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="75">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">camsvc</S>
+      <Obj N="Status" RefId="76">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="77">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Capability Access Manager Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CaptureService_bfc22ac</S>
+      <Obj N="Status" RefId="79">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="80">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">CaptureService_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="81">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">cbdhsvc_bfc22ac</S>
+      <Obj N="Status" RefId="82">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="83">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Clipboard User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CDPSvc</S>
+      <Obj N="Status" RefId="85">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="86">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Connected Devices Platform Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="87">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CDPUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="88">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="89">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Connected Devices Platform User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="90">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CertPropSvc</S>
+      <Obj N="Status" RefId="91">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="92">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Certificate Propagation</S>
+    </MS>
+  </Obj>
+  <Obj RefId="93">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ClickToRunSvc</S>
+      <Obj N="Status" RefId="94">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="95">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Office Click-to-Run Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="96">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ClipSVC</S>
+      <Obj N="Status" RefId="97">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="98">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Client License Service (ClipSVC)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="99">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CloudBackupRestoreSvc_bfc22ac</S>
+      <Obj N="Status" RefId="100">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="101">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Cloud Backup and Restore Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="102">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">COMSysApp</S>
+      <Obj N="Status" RefId="103">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="104">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">COM+ System Application</S>
+    </MS>
+  </Obj>
+  <Obj RefId="105">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ConsentUxUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="106">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="107">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">ConsentUX User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="108">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CoreMessagingRegistrar</S>
+      <Obj N="Status" RefId="109">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="110">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">CoreMessaging</S>
+    </MS>
+  </Obj>
+  <Obj RefId="111">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CredentialEnrollmentManagerUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="112">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="113">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">CredentialEnrollmentManagerUserSvc_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">CryptSvc</S>
+      <Obj N="Status" RefId="115">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="116">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Cryptographic Services</S>
+    </MS>
+  </Obj>
+  <Obj RefId="117">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DcomLaunch</S>
+      <Obj N="Status" RefId="118">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="119">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">DCOM Server Process Launcher</S>
+    </MS>
+  </Obj>
+  <Obj RefId="120">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">dcsvc</S>
+      <Obj N="Status" RefId="121">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="122">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Declared Configuration(DC) service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="123">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">defragsvc</S>
+      <Obj N="Status" RefId="124">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="125">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Optimize drives</S>
+    </MS>
+  </Obj>
+  <Obj RefId="126">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DeviceAssociationBrokerSvc_bfc22ac</S>
+      <Obj N="Status" RefId="127">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="128">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">DeviceAssociationBroker_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="129">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DeviceAssociationService</S>
+      <Obj N="Status" RefId="130">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="131">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Device Association Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="132">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DeviceInstall</S>
+      <Obj N="Status" RefId="133">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="134">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Device Install Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="135">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DevicePickerUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="136">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="137">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">DevicePicker_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="138">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DevicesFlowUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="139">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="140">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">DevicesFlow_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="141">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DevQueryBroker</S>
+      <Obj N="Status" RefId="142">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="143">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">DevQuery Background Discovery Broker</S>
+    </MS>
+  </Obj>
+  <Obj RefId="144">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Dhcp</S>
+      <Obj N="Status" RefId="145">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="146">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">DHCP Client</S>
+    </MS>
+  </Obj>
+  <Obj RefId="147">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">diagnosticshub.standardcollector.service</S>
+      <Obj N="Status" RefId="148">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="149">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft (R) Diagnostics Hub Standard Collector Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="150">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">diagsvc</S>
+      <Obj N="Status" RefId="151">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="152">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Diagnostic Execution Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="153">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DiagTrack</S>
+      <Obj N="Status" RefId="154">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="155">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Connected User Experiences and Telemetry</S>
+    </MS>
+  </Obj>
+  <Obj RefId="156">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DispBrokerDesktopSvc</S>
+      <Obj N="Status" RefId="157">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="158">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Display Policy Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="159">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DisplayEnhancementService</S>
+      <Obj N="Status" RefId="160">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="161">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Display Enhancement Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="162">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DmEnrollmentSvc</S>
+      <Obj N="Status" RefId="163">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="164">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Device Management Enrollment Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="165">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">dmwappushservice</S>
+      <Obj N="Status" RefId="166">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="167">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Device Management Wireless Application Protocol (WAP) Push message Routing Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="168">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Dnscache</S>
+      <Obj N="Status" RefId="169">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="170">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">DNS Client</S>
+    </MS>
+  </Obj>
+  <Obj RefId="171">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DoSvc</S>
+      <Obj N="Status" RefId="172">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="173">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Delivery Optimization</S>
+    </MS>
+  </Obj>
+  <Obj RefId="174">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">dot3svc</S>
+      <Obj N="Status" RefId="175">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="176">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Wired AutoConfig</S>
+    </MS>
+  </Obj>
+  <Obj RefId="177">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DPS</S>
+      <Obj N="Status" RefId="178">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="179">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Diagnostic Policy Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="180">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DsmSvc</S>
+      <Obj N="Status" RefId="181">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="182">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Device Setup Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="183">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DsSvc</S>
+      <Obj N="Status" RefId="184">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="185">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Data Sharing Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="186">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DtsApo4Service</S>
+      <Obj N="Status" RefId="187">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="188">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">DtsApo4Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="189">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">DusmSvc</S>
+      <Obj N="Status" RefId="190">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="191">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Data Usage</S>
+    </MS>
+  </Obj>
+  <Obj RefId="192">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EAAntiCheatService</S>
+      <Obj N="Status" RefId="193">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="194">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">EAAntiCheatService</S>
+    </MS>
+  </Obj>
+  <Obj RefId="195">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EABackgroundService</S>
+      <Obj N="Status" RefId="196">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="197">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">EABackgroundService</S>
+    </MS>
+  </Obj>
+  <Obj RefId="198">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EapHost</S>
+      <Obj N="Status" RefId="199">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="200">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Extensible Authentication Protocol</S>
+    </MS>
+  </Obj>
+  <Obj RefId="201">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EasyAntiCheat_EOS</S>
+      <Obj N="Status" RefId="202">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="203">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Easy Anti-Cheat (Epic Online Services)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="204">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">edgeupdate</S>
+      <Obj N="Status" RefId="205">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="206">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Edge Update Service (edgeupdate)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="207">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">edgeupdatem</S>
+      <Obj N="Status" RefId="208">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="209">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Edge Update Service (edgeupdatem)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="210">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EFS</S>
+      <Obj N="Status" RefId="211">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="212">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Encrypting File System (EFS)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="213">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">embeddedmode</S>
+      <Obj N="Status" RefId="214">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="215">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Embedded Mode</S>
+    </MS>
+  </Obj>
+  <Obj RefId="216">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EntAppSvc</S>
+      <Obj N="Status" RefId="217">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="218">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Enterprise App Management Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="219">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EpicGamesUpdater</S>
+      <Obj N="Status" RefId="220">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="221">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Epic Games Updater</S>
+    </MS>
+  </Obj>
+  <Obj RefId="222">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EpicOnlineServices</S>
+      <Obj N="Status" RefId="223">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="224">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Epic Online Services</S>
+    </MS>
+  </Obj>
+  <Obj RefId="225">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ETDService</S>
+      <Obj N="Status" RefId="226">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="227">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">ELAN Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="228">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EventLog</S>
+      <Obj N="Status" RefId="229">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="230">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Event Log</S>
+    </MS>
+  </Obj>
+  <Obj RefId="231">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">EventSystem</S>
+      <Obj N="Status" RefId="232">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="233">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">COM+ Event System</S>
+    </MS>
+  </Obj>
+  <Obj RefId="234">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">fdPHost</S>
+      <Obj N="Status" RefId="235">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="236">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Function Discovery Provider Host</S>
+    </MS>
+  </Obj>
+  <Obj RefId="237">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">FDResPub</S>
+      <Obj N="Status" RefId="238">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="239">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Function Discovery Resource Publication</S>
+    </MS>
+  </Obj>
+  <Obj RefId="240">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">fhsvc</S>
+      <Obj N="Status" RefId="241">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="242">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">File History Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="243">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">FontCache</S>
+      <Obj N="Status" RefId="244">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="245">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Font Cache Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="246">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">FrameServer</S>
+      <Obj N="Status" RefId="247">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="248">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Camera Frame Server</S>
+    </MS>
+  </Obj>
+  <Obj RefId="249">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">FrameServerMonitor</S>
+      <Obj N="Status" RefId="250">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="251">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Camera Frame Server Monitor</S>
+    </MS>
+  </Obj>
+  <Obj RefId="252">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Futuremark SystemInfo Service</S>
+      <Obj N="Status" RefId="253">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="254">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Futuremark SystemInfo Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="255">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">FvSvc</S>
+      <Obj N="Status" RefId="256">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="257">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">NVIDIA FrameView SDK service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="258">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GameInputSvc</S>
+      <Obj N="Status" RefId="259">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="260">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">GameInput Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="261">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GamingServices</S>
+      <Obj N="Status" RefId="262">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="263">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Gaming Services</S>
+    </MS>
+  </Obj>
+  <Obj RefId="264">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GamingServicesNet</S>
+      <Obj N="Status" RefId="265">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="266">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Gaming Services</S>
+    </MS>
+  </Obj>
+  <Obj RefId="267">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GoogleChromeElevationService</S>
+      <Obj N="Status" RefId="268">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="269">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Google Chrome Elevation Service (GoogleChromeElevationService)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="270">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GoogleUpdaterInternalService138.0.7194.0</S>
+      <Obj N="Status" RefId="271">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="272">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Google Updater Internal Service (GoogleUpdaterInternalService138.0.7194.0)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="273">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GoogleUpdaterService138.0.7194.0</S>
+      <Obj N="Status" RefId="274">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="275">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Google Updater Service (GoogleUpdaterService138.0.7194.0)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="276">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">gpsvc</S>
+      <Obj N="Status" RefId="277">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="278">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Group Policy Client</S>
+    </MS>
+  </Obj>
+  <Obj RefId="279">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">GraphicsPerfSvc</S>
+      <Obj N="Status" RefId="280">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="281">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">GraphicsPerfSvc</S>
+    </MS>
+  </Obj>
+  <Obj RefId="282">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">hidserv</S>
+      <Obj N="Status" RefId="283">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="284">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Human Interface Device Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="285">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">hns</S>
+      <Obj N="Status" RefId="286">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="287">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Host Network Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="288">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HP Comm Recover</S>
+      <Obj N="Status" RefId="289">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="290">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Comm Recovery</S>
+    </MS>
+  </Obj>
+  <Obj RefId="291">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPAppHelperCap</S>
+      <Obj N="Status" RefId="292">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="293">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP App Helper HSA Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="294">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPDiagsCap</S>
+      <Obj N="Status" RefId="295">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="296">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Diagnostics HSA Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="297">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPNetworkCap</S>
+      <Obj N="Status" RefId="298">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="299">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Network HSA Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="300">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPOmenCap</S>
+      <Obj N="Status" RefId="301">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="302">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Omen HSA Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="303">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPPrintScanDoctorService</S>
+      <Obj N="Status" RefId="304">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="305">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Print Scan Doctor Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="306">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HPSysInfoCap</S>
+      <Obj N="Status" RefId="307">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="308">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP System Info HSA Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="309">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HpTouchpointAnalyticsService</S>
+      <Obj N="Status" RefId="310">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="311">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">HP Insights Analytics</S>
+    </MS>
+  </Obj>
+  <Obj RefId="312">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">HvHost</S>
+      <Obj N="Status" RefId="313">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="314">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">HV Host Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="315">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">icssvc</S>
+      <Obj N="Status" RefId="316">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="317">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Windows Mobile Hotspot Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="318">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">IKEEXT</S>
+      <Obj N="Status" RefId="319">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="320">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">IKE and AuthIP IPsec Keying Modules</S>
+    </MS>
+  </Obj>
+  <Obj RefId="321">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">InstallService</S>
+      <Obj N="Status" RefId="322">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="323">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Store Install Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="324">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">InventorySvc</S>
+      <Obj N="Status" RefId="325">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="326">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Inventory and Compatibility Appraisal service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="327">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">iphlpsvc</S>
+      <Obj N="Status" RefId="328">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="329">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">IP Helper</S>
+    </MS>
+  </Obj>
+  <Obj RefId="330">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">IpxlatCfgSvc</S>
+      <Obj N="Status" RefId="331">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="332">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">IP Translation Configuration Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="333">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">KeyIso</S>
+      <Obj N="Status" RefId="334">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="335">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">CNG Key Isolation</S>
+    </MS>
+  </Obj>
+  <Obj RefId="336">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">KtmRm</S>
+      <Obj N="Status" RefId="337">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="338">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">KtmRm for Distributed Transaction Coordinator</S>
+    </MS>
+  </Obj>
+  <Obj RefId="339">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">LanmanServer</S>
+      <Obj N="Status" RefId="340">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="341">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Server</S>
+    </MS>
+  </Obj>
+  <Obj RefId="342">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">LanmanWorkstation</S>
+      <Obj N="Status" RefId="343">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="344">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Workstation</S>
+    </MS>
+  </Obj>
+  <Obj RefId="345">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">lfsvc</S>
+      <Obj N="Status" RefId="346">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="347">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Geolocation Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="348">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">LicenseManager</S>
+      <Obj N="Status" RefId="349">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="350">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows License Manager Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="351">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">lltdsvc</S>
+      <Obj N="Status" RefId="352">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="353">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Link-Layer Topology Discovery Mapper</S>
+    </MS>
+  </Obj>
+  <Obj RefId="354">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">lmhosts</S>
+      <Obj N="Status" RefId="355">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="356">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">TCP/IP NetBIOS Helper</S>
+    </MS>
+  </Obj>
+  <Obj RefId="357">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">LSM</S>
+      <Obj N="Status" RefId="358">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="359">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Local Session Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="360">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">LxpSvc</S>
+      <Obj N="Status" RefId="361">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="362">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Language Experience Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="363">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MapsBroker</S>
+      <Obj N="Status" RefId="364">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="365">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Downloaded Maps Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="366">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">McpManagementService</S>
+      <Obj N="Status" RefId="367">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="368">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">McpManagementService</S>
+    </MS>
+  </Obj>
+  <Obj RefId="369">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MDCoreSvc</S>
+      <Obj N="Status" RefId="370">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="371">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Defender Core Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="372">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MessagingService_bfc22ac</S>
+      <Obj N="Status" RefId="373">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="374">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">MessagingService_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="375">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MicrosoftEdgeElevationService</S>
+      <Obj N="Status" RefId="376">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="377">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="378">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MixedRealityOpenXRSvc</S>
+      <Obj N="Status" RefId="379">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="380">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Mixed Reality OpenXR Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="381">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">mpssvc</S>
+      <Obj N="Status" RefId="382">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="383">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Defender Firewall</S>
+    </MS>
+  </Obj>
+  <Obj RefId="384">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MSDTC</S>
+      <Obj N="Status" RefId="385">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="386">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Distributed Transaction Coordinator</S>
+    </MS>
+  </Obj>
+  <Obj RefId="387">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">MSiSCSI</S>
+      <Obj N="Status" RefId="388">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="389">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft iSCSI Initiator Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="390">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">msiserver</S>
+      <Obj N="Status" RefId="391">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="392">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Installer</S>
+    </MS>
+  </Obj>
+  <Obj RefId="393">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NaturalAuthentication</S>
+      <Obj N="Status" RefId="394">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="395">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Natural Authentication</S>
+    </MS>
+  </Obj>
+  <Obj RefId="396">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NcaSvc</S>
+      <Obj N="Status" RefId="397">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="398">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Connectivity Assistant</S>
+    </MS>
+  </Obj>
+  <Obj RefId="399">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NcbService</S>
+      <Obj N="Status" RefId="400">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="401">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Connection Broker</S>
+    </MS>
+  </Obj>
+  <Obj RefId="402">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NcdAutoSetup</S>
+      <Obj N="Status" RefId="403">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="404">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Connected Devices Auto-Setup</S>
+    </MS>
+  </Obj>
+  <Obj RefId="405">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Netlogon</S>
+      <Obj N="Status" RefId="406">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="407">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Netlogon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="408">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Netman</S>
+      <Obj N="Status" RefId="409">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="410">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Connections</S>
+    </MS>
+  </Obj>
+  <Obj RefId="411">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">netprofm</S>
+      <Obj N="Status" RefId="412">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="413">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network List Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="414">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NetSetupSvc</S>
+      <Obj N="Status" RefId="415">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="416">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Setup Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="417">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NetTcpPortSharing</S>
+      <Obj N="Status" RefId="418">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="419">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Net.Tcp Port Sharing Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="420">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NgcCtnrSvc</S>
+      <Obj N="Status" RefId="421">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="422">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Passport Container</S>
+    </MS>
+  </Obj>
+  <Obj RefId="423">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NgcSvc</S>
+      <Obj N="Status" RefId="424">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="425">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Passport</S>
+    </MS>
+  </Obj>
+  <Obj RefId="426">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NlaSvc</S>
+      <Obj N="Status" RefId="427">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="428">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Network Location Awareness</S>
+    </MS>
+  </Obj>
+  <Obj RefId="429">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">nordsec-threatprotection-service</S>
+      <Obj N="Status" RefId="430">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="431">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">nordsec-threatprotection-service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="432">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NordUpdaterService</S>
+      <Obj N="Status" RefId="433">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="434">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">NordSec Update Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="435">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">nordvpn-service</S>
+      <Obj N="Status" RefId="436">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="437">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">nordvpn-service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="438">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NPSMSvc_bfc22ac</S>
+      <Obj N="Status" RefId="439">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="440">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">NPSMSvc_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="441">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">nsi</S>
+      <Obj N="Status" RefId="442">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="443">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Network Store Interface Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="444">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">nvagent</S>
+      <Obj N="Status" RefId="445">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="446">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Network Virtualization Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="447">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NvContainerLocalSystem</S>
+      <Obj N="Status" RefId="448">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="449">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">NVIDIA LocalSystem Container</S>
+    </MS>
+  </Obj>
+  <Obj RefId="450">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">NVDisplay.ContainerLocalSystem</S>
+      <Obj N="Status" RefId="451">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="452">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">NVIDIA Display Container LS</S>
+    </MS>
+  </Obj>
+  <Obj RefId="453">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">OneSyncSvc_bfc22ac</S>
+      <Obj N="Status" RefId="454">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="455">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Sync Host_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="456">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">p2pimsvc</S>
+      <Obj N="Status" RefId="457">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="458">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Peer Networking Identity Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="459">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">p2psvc</S>
+      <Obj N="Status" RefId="460">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="461">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Peer Networking Grouping</S>
+    </MS>
+  </Obj>
+  <Obj RefId="462">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">P9RdrService_bfc22ac</S>
+      <Obj N="Status" RefId="463">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="464">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">P9RdrService_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="465">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PcaSvc</S>
+      <Obj N="Status" RefId="466">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="467">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Program Compatibility Assistant Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="468">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PenService_bfc22ac</S>
+      <Obj N="Status" RefId="469">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="470">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">PenService_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="471">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">perceptionsimulation</S>
+      <Obj N="Status" RefId="472">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="473">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Perception Simulation Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="474">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PerfHost</S>
+      <Obj N="Status" RefId="475">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="476">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Performance Counter DLL Host</S>
+    </MS>
+  </Obj>
+  <Obj RefId="477">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PhoneSvc</S>
+      <Obj N="Status" RefId="478">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="479">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Phone Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="480">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PimIndexMaintenanceSvc_bfc22ac</S>
+      <Obj N="Status" RefId="481">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="482">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Contact Data_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="483">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">pla</S>
+      <Obj N="Status" RefId="484">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="485">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Performance Logs &amp; Alerts</S>
+    </MS>
+  </Obj>
+  <Obj RefId="486">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PlugPlay</S>
+      <Obj N="Status" RefId="487">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="488">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Plug and Play</S>
+    </MS>
+  </Obj>
+  <Obj RefId="489">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PNRPAutoReg</S>
+      <Obj N="Status" RefId="490">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="491">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">PNRP Machine Name Publication Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="492">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PNRPsvc</S>
+      <Obj N="Status" RefId="493">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="494">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Peer Name Resolution Protocol</S>
+    </MS>
+  </Obj>
+  <Obj RefId="495">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PolicyAgent</S>
+      <Obj N="Status" RefId="496">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="497">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">IPsec Policy Agent</S>
+    </MS>
+  </Obj>
+  <Obj RefId="498">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Power</S>
+      <Obj N="Status" RefId="499">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="500">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Power</S>
+    </MS>
+  </Obj>
+  <Obj RefId="501">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PrintNotify</S>
+      <Obj N="Status" RefId="502">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="503">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Printer Extensions and Notifications</S>
+    </MS>
+  </Obj>
+  <Obj RefId="504">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PrintWorkflowUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="505">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="506">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">PrintWorkflow_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="507">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ProfSvc</S>
+      <Obj N="Status" RefId="508">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="509">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">User Profile Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="510">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">PushToInstall</S>
+      <Obj N="Status" RefId="511">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="512">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows PushToInstall Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="513">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">QWAVE</S>
+      <Obj N="Status" RefId="514">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="515">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Quality Windows Audio Video Experience</S>
+    </MS>
+  </Obj>
+  <Obj RefId="516">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RasAuto</S>
+      <Obj N="Status" RefId="517">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="518">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Access Auto Connection Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="519">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RasMan</S>
+      <Obj N="Status" RefId="520">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="521">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Access Connection Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="522">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RemoteAccess</S>
+      <Obj N="Status" RefId="523">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="524">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Routing and Remote Access</S>
+    </MS>
+  </Obj>
+  <Obj RefId="525">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RemoteRegistry</S>
+      <Obj N="Status" RefId="526">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="527">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Remote Registry</S>
+    </MS>
+  </Obj>
+  <Obj RefId="528">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RetailDemo</S>
+      <Obj N="Status" RefId="529">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="530">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Retail Demo Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="531">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RmSvc</S>
+      <Obj N="Status" RefId="532">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="533">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Radio Management Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="534">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RpcEptMapper</S>
+      <Obj N="Status" RefId="535">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="536">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">RPC Endpoint Mapper</S>
+    </MS>
+  </Obj>
+  <Obj RefId="537">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RpcLocator</S>
+      <Obj N="Status" RefId="538">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="539">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Procedure Call (RPC) Locator</S>
+    </MS>
+  </Obj>
+  <Obj RefId="540">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RpcSs</S>
+      <Obj N="Status" RefId="541">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="542">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Remote Procedure Call (RPC)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="543">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RtkAudioUniversalService</S>
+      <Obj N="Status" RefId="544">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="545">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Realtek Audio Universal Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="546">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">RtkBtManServ</S>
+      <Obj N="Status" RefId="547">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="548">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Realtek Bluetooth Device Manager Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="549">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SamSs</S>
+      <Obj N="Status" RefId="550">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="551">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Security Accounts Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="552">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SCardSvr</S>
+      <Obj N="Status" RefId="553">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="554">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Smart Card</S>
+    </MS>
+  </Obj>
+  <Obj RefId="555">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ScDeviceEnum</S>
+      <Obj N="Status" RefId="556">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="557">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Smart Card Device Enumeration Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="558">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Schedule</S>
+      <Obj N="Status" RefId="559">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="560">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Task Scheduler</S>
+    </MS>
+  </Obj>
+  <Obj RefId="561">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SCPolicySvc</S>
+      <Obj N="Status" RefId="562">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="563">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Smart Card Removal Policy</S>
+    </MS>
+  </Obj>
+  <Obj RefId="564">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SDRSVC</S>
+      <Obj N="Status" RefId="565">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="566">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Backup</S>
+    </MS>
+  </Obj>
+  <Obj RefId="567">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">seclogon</S>
+      <Obj N="Status" RefId="568">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="569">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Secondary Logon</S>
+    </MS>
+  </Obj>
+  <Obj RefId="570">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SecurityHealthService</S>
+      <Obj N="Status" RefId="571">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="572">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Security Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="573">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SEMgrSvc</S>
+      <Obj N="Status" RefId="574">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="575">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Payments and NFC/SE Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="576">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SENS</S>
+      <Obj N="Status" RefId="577">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="578">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">System Event Notification Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="579">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SensorDataService</S>
+      <Obj N="Status" RefId="580">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="581">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Sensor Data Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="582">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SensorService</S>
+      <Obj N="Status" RefId="583">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="584">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Sensor Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="585">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SensrSvc</S>
+      <Obj N="Status" RefId="586">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="587">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Sensor Monitoring Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="588">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SessionEnv</S>
+      <Obj N="Status" RefId="589">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="590">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Desktop Configuration</S>
+    </MS>
+  </Obj>
+  <Obj RefId="591">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SharedAccess</S>
+      <Obj N="Status" RefId="592">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="593">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Internet Connection Sharing (ICS)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="594">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SharedRealitySvc</S>
+      <Obj N="Status" RefId="595">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="596">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Spatial Data Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="597">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ShellHWDetection</S>
+      <Obj N="Status" RefId="598">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="599">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Shell Hardware Detection</S>
+    </MS>
+  </Obj>
+  <Obj RefId="600">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">shpamsvc</S>
+      <Obj N="Status" RefId="601">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="602">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Shared PC Account Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="603">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">smphost</S>
+      <Obj N="Status" RefId="604">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="605">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Storage Spaces SMP</S>
+    </MS>
+  </Obj>
+  <Obj RefId="606">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SmsRouter</S>
+      <Obj N="Status" RefId="607">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="608">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Windows SMS Router Service.</S>
+    </MS>
+  </Obj>
+  <Obj RefId="609">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SNMPTrap</S>
+      <Obj N="Status" RefId="610">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="611">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">SNMP Trap</S>
+    </MS>
+  </Obj>
+  <Obj RefId="612">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">spectrum</S>
+      <Obj N="Status" RefId="613">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="614">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Perception Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="615">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Spooler</S>
+      <Obj N="Status" RefId="616">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="617">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Print Spooler</S>
+    </MS>
+  </Obj>
+  <Obj RefId="618">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">sppsvc</S>
+      <Obj N="Status" RefId="619">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="620">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Software Protection</S>
+    </MS>
+  </Obj>
+  <Obj RefId="621">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SSDPSRV</S>
+      <Obj N="Status" RefId="622">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="623">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">SSDP Discovery</S>
+    </MS>
+  </Obj>
+  <Obj RefId="624">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">ssh-agent</S>
+      <Obj N="Status" RefId="625">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="626">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">OpenSSH Authentication Agent</S>
+    </MS>
+  </Obj>
+  <Obj RefId="627">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SstpSvc</S>
+      <Obj N="Status" RefId="628">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="629">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Secure Socket Tunneling Protocol Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="630">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">StateRepository</S>
+      <Obj N="Status" RefId="631">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="632">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">State Repository Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="633">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Steam Client Service</S>
+      <Obj N="Status" RefId="634">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="635">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Steam Client Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="636">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">StiSvc</S>
+      <Obj N="Status" RefId="637">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="638">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Image Acquisition (WIA)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="639">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">StorSvc</S>
+      <Obj N="Status" RefId="640">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="641">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Storage Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="642">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">svsvc</S>
+      <Obj N="Status" RefId="643">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="644">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Spot Verifier</S>
+    </MS>
+  </Obj>
+  <Obj RefId="645">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">swprv</S>
+      <Obj N="Status" RefId="646">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="647">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Software Shadow Copy Provider</S>
+    </MS>
+  </Obj>
+  <Obj RefId="648">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SysMain</S>
+      <Obj N="Status" RefId="649">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="650">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">SysMain</S>
+    </MS>
+  </Obj>
+  <Obj RefId="651">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">SystemEventsBroker</S>
+      <Obj N="Status" RefId="652">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="653">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">System Events Broker</S>
+    </MS>
+  </Obj>
+  <Obj RefId="654">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TapiSrv</S>
+      <Obj N="Status" RefId="655">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="656">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Telephony</S>
+    </MS>
+  </Obj>
+  <Obj RefId="657">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TermService</S>
+      <Obj N="Status" RefId="658">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="659">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Desktop Services</S>
+    </MS>
+  </Obj>
+  <Obj RefId="660">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TextInputManagementService</S>
+      <Obj N="Status" RefId="661">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="662">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Text Input Management Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="663">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Themes</S>
+      <Obj N="Status" RefId="664">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="665">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Themes</S>
+    </MS>
+  </Obj>
+  <Obj RefId="666">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TieringEngineService</S>
+      <Obj N="Status" RefId="667">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="668">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Storage Tiers Management</S>
+    </MS>
+  </Obj>
+  <Obj RefId="669">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TimeBrokerSvc</S>
+      <Obj N="Status" RefId="670">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="671">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Time Broker</S>
+    </MS>
+  </Obj>
+  <Obj RefId="672">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TokenBroker</S>
+      <Obj N="Status" RefId="673">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="674">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Web Account Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="675">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TrkWks</S>
+      <Obj N="Status" RefId="676">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="677">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Distributed Link Tracking Client</S>
+    </MS>
+  </Obj>
+  <Obj RefId="678">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TroubleshootingSvc</S>
+      <Obj N="Status" RefId="679">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="680">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Recommended Troubleshooting Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="681">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">TrustedInstaller</S>
+      <Obj N="Status" RefId="682">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="683">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Modules Installer</S>
+    </MS>
+  </Obj>
+  <Obj RefId="684">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">tzautoupdate</S>
+      <Obj N="Status" RefId="685">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="686">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Auto Time Zone Updater</S>
+    </MS>
+  </Obj>
+  <Obj RefId="687">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UdkUserSvc_bfc22ac</S>
+      <Obj N="Status" RefId="688">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="689">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Udk User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="690">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">uhssvc</S>
+      <Obj N="Status" RefId="691">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="692">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Update Health Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="693">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UmRdpService</S>
+      <Obj N="Status" RefId="694">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="695">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Remote Desktop Services UserMode Port Redirector</S>
+    </MS>
+  </Obj>
+  <Obj RefId="696">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UnistoreSvc_bfc22ac</S>
+      <Obj N="Status" RefId="697">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="698">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">User Data Storage_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="699">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">upnphost</S>
+      <Obj N="Status" RefId="700">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="701">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">UPnP Device Host</S>
+    </MS>
+  </Obj>
+  <Obj RefId="702">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UserDataSvc_bfc22ac</S>
+      <Obj N="Status" RefId="703">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="704">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">User Data Access_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="705">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UserManager</S>
+      <Obj N="Status" RefId="706">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="707">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">User Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="708">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">UsoSvc</S>
+      <Obj N="Status" RefId="709">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="710">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Update Orchestrator Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="711">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">VacSvc</S>
+      <Obj N="Status" RefId="712">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="713">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Volumetric Audio Compositor Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="714">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">VaultSvc</S>
+      <Obj N="Status" RefId="715">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="716">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Credential Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="717">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">VBoxSDS</S>
+      <Obj N="Status" RefId="718">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="719">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">VirtualBox system service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="720">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vds</S>
+      <Obj N="Status" RefId="721">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="722">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Virtual Disk</S>
+    </MS>
+  </Obj>
+  <Obj RefId="723">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmcompute</S>
+      <Obj N="Status" RefId="724">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="725">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Host Compute Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="726">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicguestinterface</S>
+      <Obj N="Status" RefId="727">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="728">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Guest Service Interface</S>
+    </MS>
+  </Obj>
+  <Obj RefId="729">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicheartbeat</S>
+      <Obj N="Status" RefId="730">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="731">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Heartbeat Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="732">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmickvpexchange</S>
+      <Obj N="Status" RefId="733">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="734">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Data Exchange Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="735">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicrdv</S>
+      <Obj N="Status" RefId="736">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="737">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Remote Desktop Virtualization Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="738">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicshutdown</S>
+      <Obj N="Status" RefId="739">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="740">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Guest Shutdown Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="741">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmictimesync</S>
+      <Obj N="Status" RefId="742">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="743">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Time Synchronization Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="744">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicvmsession</S>
+      <Obj N="Status" RefId="745">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="746">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V PowerShell Direct Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="747">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">vmicvss</S>
+      <Obj N="Status" RefId="748">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="749">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Hyper-V Volume Shadow Copy Requestor</S>
+    </MS>
+  </Obj>
+  <Obj RefId="750">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">VSS</S>
+      <Obj N="Status" RefId="751">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="752">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Volume Shadow Copy</S>
+    </MS>
+  </Obj>
+  <Obj RefId="753">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">W32Time</S>
+      <Obj N="Status" RefId="754">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="755">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Windows Time</S>
+    </MS>
+  </Obj>
+  <Obj RefId="756">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WaaSMedicSvc</S>
+      <Obj N="Status" RefId="757">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="758">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">WaaSMedicSvc</S>
+    </MS>
+  </Obj>
+  <Obj RefId="759">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WalletService</S>
+      <Obj N="Status" RefId="760">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="761">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">WalletService</S>
+    </MS>
+  </Obj>
+  <Obj RefId="762">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WarpJITSvc</S>
+      <Obj N="Status" RefId="763">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="764">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Warp JIT Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="765">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wbengine</S>
+      <Obj N="Status" RefId="766">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="767">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Block Level Backup Engine Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="768">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WbioSrvc</S>
+      <Obj N="Status" RefId="769">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="770">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Windows Biometric Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="771">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Wcmsvc</S>
+      <Obj N="Status" RefId="772">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="773">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Connection Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="774">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wcncsvc</S>
+      <Obj N="Status" RefId="775">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="776">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Connect Now - Config Registrar</S>
+    </MS>
+  </Obj>
+  <Obj RefId="777">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WdiServiceHost</S>
+      <Obj N="Status" RefId="778">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="779">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Diagnostic Service Host</S>
+    </MS>
+  </Obj>
+  <Obj RefId="780">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WdiSystemHost</S>
+      <Obj N="Status" RefId="781">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="782">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Diagnostic System Host</S>
+    </MS>
+  </Obj>
+  <Obj RefId="783">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WdNisSvc</S>
+      <Obj N="Status" RefId="784">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="785">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Defender Antivirus Network Inspection Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="786">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WebClient</S>
+      <Obj N="Status" RefId="787">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="788">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">WebClient</S>
+    </MS>
+  </Obj>
+  <Obj RefId="789">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">webthreatdefsvc</S>
+      <Obj N="Status" RefId="790">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="791">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Web Threat Defense Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="792">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">webthreatdefusersvc_bfc22ac</S>
+      <Obj N="Status" RefId="793">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="794">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Web Threat Defense User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="795">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Wecsvc</S>
+      <Obj N="Status" RefId="796">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="797">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Event Collector</S>
+    </MS>
+  </Obj>
+  <Obj RefId="798">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WEPHOSTSVC</S>
+      <Obj N="Status" RefId="799">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="800">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Encryption Provider Host Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="801">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wercplsupport</S>
+      <Obj N="Status" RefId="802">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="803">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Problem Reports Control Panel Support</S>
+    </MS>
+  </Obj>
+  <Obj RefId="804">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WerSvc</S>
+      <Obj N="Status" RefId="805">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="806">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Windows Error Reporting Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="807">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WFDSConMgrSvc</S>
+      <Obj N="Status" RefId="808">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="809">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Wi-Fi Direct Services Connection Manager Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="810">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WiaRpc</S>
+      <Obj N="Status" RefId="811">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="812">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Still Image Acquisition Events</S>
+    </MS>
+  </Obj>
+  <Obj RefId="813">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WinDefend</S>
+      <Obj N="Status" RefId="814">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="815">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Defender Antivirus Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="816">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WinHttpAutoProxySvc</S>
+      <Obj N="Status" RefId="817">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="818">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">WinHTTP Web Proxy Auto-Discovery Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="819">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">Winmgmt</S>
+      <Obj N="Status" RefId="820">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="821">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Management Instrumentation</S>
+    </MS>
+  </Obj>
+  <Obj RefId="822">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WinRM</S>
+      <Obj N="Status" RefId="823">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="824">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Remote Management (WS-Management)</S>
+    </MS>
+  </Obj>
+  <Obj RefId="825">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wisvc</S>
+      <Obj N="Status" RefId="826">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="827">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Insider Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="828">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WlanSvc</S>
+      <Obj N="Status" RefId="829">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="830">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">WLAN AutoConfig</S>
+    </MS>
+  </Obj>
+  <Obj RefId="831">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wlidsvc</S>
+      <Obj N="Status" RefId="832">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="833">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Microsoft Account Sign-in Assistant</S>
+    </MS>
+  </Obj>
+  <Obj RefId="834">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wlpasvc</S>
+      <Obj N="Status" RefId="835">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="836">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Local Profile Assistant Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="837">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WManSvc</S>
+      <Obj N="Status" RefId="838">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="839">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Management Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="840">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wmiApSrv</S>
+      <Obj N="Status" RefId="841">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="842">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">WMI Performance Adapter</S>
+    </MS>
+  </Obj>
+  <Obj RefId="843">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WMPNetworkSvc</S>
+      <Obj N="Status" RefId="844">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="845">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">Windows Media Player Network Sharing Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="846">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">workfolderssvc</S>
+      <Obj N="Status" RefId="847">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="848">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Work Folders</S>
+    </MS>
+  </Obj>
+  <Obj RefId="849">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WpcMonSvc</S>
+      <Obj N="Status" RefId="850">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="851">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Parental Controls</S>
+    </MS>
+  </Obj>
+  <Obj RefId="852">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WPDBusEnum</S>
+      <Obj N="Status" RefId="853">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="854">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Portable Device Enumerator Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="855">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WpnService</S>
+      <Obj N="Status" RefId="856">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="857">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Push Notifications System Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="858">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WpnUserService_bfc22ac</S>
+      <Obj N="Status" RefId="859">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="860">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Windows Push Notifications User Service_bfc22ac</S>
+    </MS>
+  </Obj>
+  <Obj RefId="861">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wscsvc</S>
+      <Obj N="Status" RefId="862">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="863">
+        <TNRef RefId="2" />
+        <ToString>Automatic</ToString>
+        <I32>2</I32>
+      </Obj>
+      <S N="DisplayName">Security Center</S>
+    </MS>
+  </Obj>
+  <Obj RefId="864">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WSearch</S>
+      <Obj N="Status" RefId="865">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="866">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Search</S>
+    </MS>
+  </Obj>
+  <Obj RefId="867">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">wuauserv</S>
+      <Obj N="Status" RefId="868">
+        <TNRef RefId="1" />
+        <ToString>Running</ToString>
+        <I32>4</I32>
+      </Obj>
+      <Obj N="StartType" RefId="869">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Windows Update</S>
+    </MS>
+  </Obj>
+  <Obj RefId="870">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">WwanSvc</S>
+      <Obj N="Status" RefId="871">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="872">
+        <TNRef RefId="2" />
+        <ToString>Disabled</ToString>
+        <I32>4</I32>
+      </Obj>
+      <S N="DisplayName">WWAN AutoConfig</S>
+    </MS>
+  </Obj>
+  <Obj RefId="873">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">XblAuthManager</S>
+      <Obj N="Status" RefId="874">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="875">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Xbox Live Auth Manager</S>
+    </MS>
+  </Obj>
+  <Obj RefId="876">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">XblGameSave</S>
+      <Obj N="Status" RefId="877">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="878">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Xbox Live Game Save</S>
+    </MS>
+  </Obj>
+  <Obj RefId="879">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">XboxGipSvc</S>
+      <Obj N="Status" RefId="880">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="881">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Xbox Accessory Management Service</S>
+    </MS>
+  </Obj>
+  <Obj RefId="882">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Name">XboxNetApiSvc</S>
+      <Obj N="Status" RefId="883">
+        <TNRef RefId="1" />
+        <ToString>Stopped</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="StartType" RefId="884">
+        <TNRef RefId="2" />
+        <ToString>Manual</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="DisplayName">Xbox Live Networking Service</S>
+    </MS>
+  </Obj>
+</Objs>
