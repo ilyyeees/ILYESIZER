@@ -548,10 +548,9 @@ function Set-GamingQoSPolicy {
         New-NetQosPolicy -Name "Gaming-Origin" -AppPathNameMatchCondition "*\Origin.exe" -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
         New-NetQosPolicy -Name "Gaming-Epic" -AppPathNameMatchCondition "*\EpicGamesLauncher.exe" -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
         New-NetQosPolicy -Name "Gaming-Uplay" -AppPathNameMatchCondition "*\UplayWebCore.exe" -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
-        
-        # Gaming protocol optimizations
+          # Gaming protocol optimizations
         New-NetQosPolicy -Name "Gaming-UDP-High" -Protocol UDP -MinBandwidthWeightAction 100 -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
-        New-NetQosPolicy -Name "Gaming-TCP-Gaming" -Protocol TCP -RemotePortMatchCondition 27015,27016,27017,27018,27019 -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
+        New-NetQosPolicy -Name "Gaming-TCP-Gaming" -Protocol TCP -RemotePort 27015,27016,27017,27018,27019 -PriorityValue8021Action 7 -ErrorAction SilentlyContinue | Out-Null
         
         # Discord and voice chat priority
         New-NetQosPolicy -Name "Gaming-Discord" -AppPathNameMatchCondition "*\Discord.exe" -PriorityValue8021Action 6 -ErrorAction SilentlyContinue | Out-Null

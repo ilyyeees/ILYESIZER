@@ -662,7 +662,7 @@ function Optimize-DisplayDriverSettings {
                 New-Item -Path $opt.Path -Force | Out-Null
             }
             
-            $type = if ($opt.Type) { $opt.Type } else { "DWORD" }
+            $type = if ($opt.ContainsKey("Type")) { $opt.Type } else { "DWORD" }
             
             if ($type -eq "Binary") {
                 Set-ItemProperty -Path $opt.Path -Name $opt.Name -Value $opt.Value -Type Binary -Force

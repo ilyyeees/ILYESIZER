@@ -620,9 +620,8 @@ function Optimize-VisualEffects {
         @{ Path = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"; Name = "ListviewAlphaSelect"; Value = 0; Description = "Disable listview alpha selection" },
         @{ Path = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"; Name = "TaskbarAnimations"; Value = 0; Description = "Disable taskbar animations" }
     )
-    
-    foreach ($opt in $uiOptimizations) {
-        $type = if ($opt.Type) { $opt.Type } else { "DWORD" }
+      foreach ($opt in $uiOptimizations) {
+        $type = if ($opt.ContainsKey("Type")) { $opt.Type } else { "DWORD" }
         if (Set-RegistryValue -Path $opt.Path -Name $opt.Name -Value $opt.Value -Type $type) {
             Write-OptLog $opt.Description "SUCCESS"
         }
@@ -665,14 +664,15 @@ function Clear-SystemTemporaryFiles {
         @{ Path = "$env:LOCALAPPDATA\Microsoft\Windows\INetCache"; Description = "Internet cache files" },
         @{ Path = "$env:APPDATA\Microsoft\Windows\Recent"; Description = "Recent files cache" }
     )
-    
-    $totalFreed = 0
+      $totalFreed = 0
     foreach ($location in $cleanupLocations) {
         if (Test-Path $location.Path) {
             try {
-                $beforeSize = (Get-ChildItem $location.Path -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
+                $beforeMeasure = Get-ChildItem $location.Path -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum
+                $beforeSize = if ($beforeMeasure.Sum) { $beforeMeasure.Sum } else { 0 }
                 Get-ChildItem $location.Path -Recurse -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-                $afterSize = (Get-ChildItem $location.Path -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum).Sum
+                $afterMeasure = Get-ChildItem $location.Path -Recurse -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum
+                $afterSize = if ($afterMeasure.Sum) { $afterMeasure.Sum } else { 0 }
                 $freed = ($beforeSize - $afterSize) / 1MB
                 $totalFreed += $freed
                 Write-OptLog "$($location.Description): Freed $([math]::Round($freed, 2)) MB" "SUCCESS"
@@ -727,9 +727,8 @@ function Optimize-SystemSettings {
         @{ Path = "HKCU:\Control Panel\Mouse"; Name = "MouseThreshold1"; Value = 0; Description = "Disable mouse threshold 1" },
         @{ Path = "HKCU:\Control Panel\Mouse"; Name = "MouseThreshold2"; Value = 0; Description = "Disable mouse threshold 2" }
     )
-    
-    foreach ($opt in $systemOptimizations) {
-        if ($opt.RequiresAdmin -and -not $isAdmin) {
+      foreach ($opt in $systemOptimizations) {
+        if ($opt.ContainsKey("RequiresAdmin") -and $opt.RequiresAdmin -and -not $isAdmin) {
             Write-OptLog "Skipping $($opt.Description) - requires admin privileges" "WARNING"
             continue
         }
@@ -779,9 +778,59 @@ function Show-StartupPrograms {
             Write-Host "`n[TIP] Tip: Review these programs and disable unnecessary ones in Task Manager > Startup tab" -ForegroundColor Green
         } else {
             Write-OptLog "No startup programs found" "INFO"
-        }
-    } catch {
+        }    } catch {
         Write-OptLog "Failed to enumerate startup programs: $($_.Exception.Message)" "WARNING"
+    }
+}
+
+function Set-UltimateGamingMode {
+    Write-Host "`n[ULTIMATE] APPLYING ULTIMATE GAMING MODE OPTIMIZATIONS" -ForegroundColor Red
+    Write-OptLog "Applying ULTIMATE gaming mode optimizations..." "INFO"
+    
+    try {
+        # Disable Windows Game DVR completely (can cause stuttering)
+        $gameDVRPaths = @(
+            "HKCU:\System\GameConfigStore",
+            "HKCU:\SOFTWARE\Microsoft\GameBar",
+            "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR",
+            "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR"
+        )
+        
+        foreach ($path in $gameDVRPaths) {
+            if (!(Test-Path $path)) {
+                New-Item -Path $path -Force | Out-Null
+            }
+        }
+        
+        # Comprehensive Game DVR disable
+        Set-ItemProperty -Path "HKCU:\System\GameConfigStore" -Name "GameDVR_Enabled" -Value 0 -Force
+        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "ShowStartupPanel" -Value 0 -Force
+        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "GamePanelStartupTipIndex" -Value 3 -Force
+        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "AllowAutoGameMode" -Value 0 -Force
+        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "AutoGameModeEnabled" -Value 0 -Force
+        
+        # System-wide Game DVR disable
+        Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR" -Name "value" -Value 0 -Force
+        Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0 -Force
+        
+        Write-OptLog "Game DVR completely disabled for maximum performance" "SUCCESS"
+        
+        # Enable Hardware Accelerated GPU Scheduling (if supported)
+        $gpuSchedulingPath = "HKLM:\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"
+        if (Test-Path $gpuSchedulingPath) {
+            Set-ItemProperty -Path $gpuSchedulingPath -Name "HwSchMode" -Value 2 -Force
+            Write-OptLog "Hardware GPU Scheduling enabled" "SUCCESS"
+        }
+        
+        # Ultimate Game Mode registry tweaks
+        $gameModePath = "HKCU:\SOFTWARE\Microsoft\GameBar"
+        Set-ItemProperty -Path $gameModePath -Name "GameModeRelatedProcesses" -Value "GameBar.exe,GameBarElevatedFT.exe,GameBarElevatedFT_Alias.exe" -Force
+        Set-ItemProperty -Path $gameModePath -Name "UseNexusForGameBarEnabled" -Value 0 -Force
+        
+        Write-OptLog "Ultimate Gaming Mode applied" "SUCCESS"
+        
+    } catch {
+        Write-OptLog "Failed to apply Ultimate Gaming Mode: $($_.Exception.Message)" "ERROR"
     }
 }
 
@@ -888,56 +937,7 @@ try {
     Some changes require administrator privileges to be fully effective.
     System restart may be required for all optimizations to take effect.
 #>
-function Set-UltimateGamingMode {
-    Write-Host "`n[ULTIMATE] APPLYING ULTIMATE GAMING MODE OPTIMIZATIONS" -ForegroundColor Red
-    Write-OptLog "Applying ULTIMATE gaming mode optimizations..." "INFO"
-    
-    try {
-        # Disable Windows Game DVR completely (can cause stuttering)
-        $gameDVRPaths = @(
-            "HKCU:\System\GameConfigStore",
-            "HKCU:\SOFTWARE\Microsoft\GameBar",
-            "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR",
-            "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR"
-        )
-        
-        foreach ($path in $gameDVRPaths) {
-            if (!(Test-Path $path)) {
-                New-Item -Path $path -Force | Out-Null
-            }
-        }
-        
-        # Comprehensive Game DVR disable
-        Set-ItemProperty -Path "HKCU:\System\GameConfigStore" -Name "GameDVR_Enabled" -Value 0 -Force
-        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "ShowStartupPanel" -Value 0 -Force
-        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "GamePanelStartupTipIndex" -Value 3 -Force
-        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "AllowAutoGameMode" -Value 0 -Force
-        Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\GameBar" -Name "AutoGameModeEnabled" -Value 0 -Force
-        
-        # System-wide Game DVR disable
-        Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR" -Name "value" -Value 0 -Force
-        Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR" -Name "AllowGameDVR" -Value 0 -Force
-        
-        Write-OptLog "Game DVR completely disabled for maximum performance" "SUCCESS"
-        
-        # Enable Hardware Accelerated GPU Scheduling (if supported)
-        $gpuSchedulingPath = "HKLM:\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"
-        if (Test-Path $gpuSchedulingPath) {
-            Set-ItemProperty -Path $gpuSchedulingPath -Name "HwSchMode" -Value 2 -Force
-            Write-OptLog "Hardware GPU Scheduling enabled" "SUCCESS"
-        }
-        
-        # Ultimate Game Mode registry tweaks
-        $gameModePath = "HKCU:\SOFTWARE\Microsoft\GameBar"
-        Set-ItemProperty -Path $gameModePath -Name "GameModeRelatedProcesses" -Value "GameBar.exe,GameBarElevatedFT.exe,GameBarElevatedFT_Alias.exe" -Force
-        Set-ItemProperty -Path $gameModePath -Name "UseNexusForGameBarEnabled" -Value 0 -Force
-        
-        Write-OptLog "Ultimate Gaming Mode applied" "SUCCESS"
-        
-    } catch {
-        Write-OptLog "Failed to apply Ultimate Gaming Mode: $($_.Exception.Message)" "ERROR"
-    }
-}
+
 
 <#
 .SYNOPSIS
