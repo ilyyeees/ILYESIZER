@@ -107,7 +107,7 @@ function Write-GPULog {
     }
     
     try {
-        Add-Content -Path $script:Config.LogFile -Value $logEntry -ErrorAction SilentlyContinue
+        Add-Content -Path $script:ILYESIZERConfig.LogFile -Value $logEntry -ErrorAction SilentlyContinue
     } catch {}
 }
 
@@ -179,7 +179,7 @@ function Show-GPUInformation {
 }
 
 function Backup-GraphicsRegistry {
-    if (-not $script:Config.BackupRegistry) { return }
+    if (-not $script:ILYESIZERConfig.BackupRegistry) { return }
     
     Write-GPULog "Creating graphics registry backup..." "INFO"
     try {
@@ -482,7 +482,7 @@ function Optimize-DisplaySettings {
 function Show-DriverUpdateInfo {
     param($GPUInfo)
     
-    if (-not $script:Config.CheckDrivers) { return }
+    if (-not $script:ILYESIZERConfig.CheckDrivers) { return }
     
     Write-Host "`n[DOWNLOAD] DRIVER UPDATE INFORMATION" -ForegroundColor Cyan
     Write-GPULog "Checking driver update recommendations..." "INFO"

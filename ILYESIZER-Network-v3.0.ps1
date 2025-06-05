@@ -108,7 +108,7 @@ function Write-NetLog {
     }
     
     try {
-        Add-Content -Path $script:Config.LogFile -Value $logEntry -ErrorAction SilentlyContinue
+        Add-Content -Path $script:ILYESIZERConfig.LogFile -Value $logEntry -ErrorAction SilentlyContinue
     } catch {}
 }
 
@@ -162,7 +162,7 @@ function Get-CurrentNetworkSettings {
 }
 
 function Backup-NetworkConfiguration {
-    if (-not $script:Config.BackupNetworkSettings) { return }
+    if (-not $script:ILYESIZERConfig.BackupNetworkSettings) { return }
     
     Write-NetLog "Creating network configuration backup..." "INFO"
     try {
@@ -223,7 +223,7 @@ Write-NetLog "Running with Administrator privileges" "SUCCESS"
 
 # Initial network assessment
 Get-CurrentNetworkSettings
-if ($script:Config.TestConnectivity) {
+if ($script:ILYESIZERConfig.TestConnectivity) {
     Test-NetworkConnectivity
 }
 Backup-NetworkConfiguration
@@ -274,7 +274,7 @@ function Optimize-DNSSettings {
         Write-NetLog "Testing DNS server response times..." "INFO"
         
         $dnsTests = @()
-        foreach ($dns in $script:Config.PreferredDNS) {
+        foreach ($dns in $script:ILYESIZERConfig.PreferredDNS) {
             $pingResult = Test-Connection -ComputerName $dns -Count 3 -ErrorAction SilentlyContinue
             if ($pingResult) {
                 $avgTime = ($pingResult | Measure-Object -Property ResponseTime -Average).Average
@@ -283,7 +283,7 @@ function Optimize-DNSSettings {
             }
         }
         
-        foreach ($dns in $script:Config.AlternateDNS) {
+        foreach ($dns in $script:ILYESIZERConfig.AlternateDNS) {
             $pingResult = Test-Connection -ComputerName $dns -Count 3 -ErrorAction SilentlyContinue  
             if ($pingResult) {
                 $avgTime = ($pingResult | Measure-Object -Property ResponseTime -Average).Average
@@ -297,7 +297,7 @@ function Optimize-DNSSettings {
         
         foreach ($adapter in $adapters) {
             try {
-                Set-DnsClientServerAddress -InterfaceIndex $adapter.InterfaceIndex -ServerAddresses $script:Config.PreferredDNS
+                Set-DnsClientServerAddress -InterfaceIndex $adapter.InterfaceIndex -ServerAddresses $script:ILYESIZERConfig.PreferredDNS
                 Write-NetLog "DNS updated for adapter: $($adapter.Name)" "SUCCESS"
             } catch {
                 Write-NetLog "Failed to update DNS for $($adapter.Name): $($_.Exception.Message)" "ERROR"
